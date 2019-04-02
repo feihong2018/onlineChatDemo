@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap" style="display:none">
+        <h1>Welcome to Feihong Chat</h1>
+        <ul class="messages">
+        </ul>
+        <div class="sendMessage">
+            <input type="text" class="enter">
+            <input type="button" value="发送" class="send">
+        </div>
+    </div>
+
+    <div class="layer" style="display:block">
+        <div class="l_wrap">
+            <h1>Enter your nickname here</h1>
+            <input type="text" class="enterInput">
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
